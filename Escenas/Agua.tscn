@@ -1,0 +1,36 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://assets/maujoe.basic_water_material/materials/basic_water_material.material" type="Material" id=1]
+[ext_resource path="res://Escenas/animaciones/animacionAgua.tres" type="Animation" id=2]
+
+[sub_resource type="QuadMesh" id=1]
+material = ExtResource( 1 )
+
+[node name="Agua" type="MeshInstance"]
+transform = Transform( 300, 0, 0, 0, -4.37114e-006, 1, 0, -100, -4.37114e-008, -61.324, 0.881, 30.339 )
+mesh = SubResource( 1 )
+material/0 = null
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+autoplay = "animacionAgua"
+anims/animacionAgua = ExtResource( 2 )
+
+[node name="AnimationTreePlayer" type="AnimationTreePlayer" parent="."]
+active = true
+data = {
+"active": true,
+"connections": [ "anim", "out", 0 ],
+"master": NodePath(""),
+"nodes": [ {
+"animation": ExtResource( 2 ),
+"filter": [  ],
+"id": "anim",
+"position": Vector2( 50, 50 ),
+"type": "animation"
+}, {
+"id": "out",
+"position": Vector2( 297, 41 ),
+"type": "output"
+} ]
+}
+

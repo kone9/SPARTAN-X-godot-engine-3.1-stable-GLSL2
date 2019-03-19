@@ -1,0 +1,19 @@
+[gd_resource type="Animation" format=2]
+
+[resource]
+resource_name = "moverCamara"
+length = 120.0
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("../camaras/Camara_principal:translation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 59.9, 120 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Vector3( 1.883, 3.98082, 15.0624 ), Vector3( -156.627, 3.981, 15.062 ), Vector3( 1.883, 3.98082, 15.0624 ) ]
+}
+

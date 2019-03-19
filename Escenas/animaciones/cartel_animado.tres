@@ -1,0 +1,19 @@
+[gd_resource type="Animation" format=2]
+
+[resource]
+resource_name = "Cartel_Animado"
+length = 1.5
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("Estructura_Casa:mesh:surface_6/material:emission_energy")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.2, 0.4, 0.6, 0.8, 1, 1.2, 1.5 ),
+"transitions": PoolRealArray( 1, 0.732043, 1, 0.732043, 1, 0.732043, 1, 1 ),
+"update": 0,
+"values": [ 0.0, 1.89, 0.0, 1.89, 0.0, 1.89, 0.0, 0.0 ]
+}
+

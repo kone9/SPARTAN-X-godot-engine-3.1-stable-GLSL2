@@ -1,0 +1,36 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path.s3tc="res://.import/vegetacion_tierra_56565656.jpg-fa12182bdb6179dae6013aee2d449613.s3tc.stex"
+path.etc="res://.import/vegetacion_tierra_56565656.jpg-fa12182bdb6179dae6013aee2d449613.etc.stex"
+metadata={
+"imported_formats": [ "s3tc", "etc" ],
+"vram_texture": true
+}
+
+[deps]
+
+source_file="res://Escenas_Importadas/plantas/vegetacion_tierra_56565656.jpg"
+dest_files=[ "res://.import/vegetacion_tierra_56565656.jpg-fa12182bdb6179dae6013aee2d449613.s3tc.stex", "res://.import/vegetacion_tierra_56565656.jpg-fa12182bdb6179dae6013aee2d449613.etc.stex" ]
+
+[params]
+
+compress/mode=2
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/bptc_ldr=0
+compress/normal_map=0
+flags/repeat=true
+flags/filter=true
+flags/mipmaps=true
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+process/invert_color=false
+stream=false
+size_limit=0
+detect_3d=false
+svg/scale=1.0

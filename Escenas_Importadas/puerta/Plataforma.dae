@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.80.49 commit date:2019-03-16, commit time:02:58, hash:dbfbd6b9043d</authoring_tool>
+    </contributor>
+    <created>2019-03-18T22:30:14</created>
+    <modified>2019-03-18T22:30:14</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="TEJAS_002-effect">
+      <profile_COMMON>
+        <newparam sid="roof_09_diff_2k__rojasGIMP_jpg-surface">
+          <surface type="2D">
+            <init_from>roof_09_diff_2k__rojasGIMP_jpg</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="roof_09_diff_2k__rojasGIMP_jpg-sampler">
+          <sampler2D>
+            <source>roof_09_diff_2k__rojasGIMP_jpg-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <diffuse>
+              <texture texture="roof_09_diff_2k__rojasGIMP_jpg-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <reflectivity>
+              <float sid="specular">0.5</float>
+            </reflectivity>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="celeste_002-effect">
+      <profile_COMMON>
+        <newparam sid="celeste-surface">
+          <surface type="2D">
+            <init_from>celeste</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="celeste-sampler">
+          <sampler2D>
+            <source>celeste-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <diffuse>
+              <texture texture="celeste-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <reflectivity>
+              <float sid="specular">0.5</float>
+            </reflectivity>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Piso_Madera_002-effect">
+      <profile_COMMON>
+        <newparam sid="planks_brown_10_diff_1k_jpg-surface">
+          <surface type="2D">
+            <init_from>planks_brown_10_diff_1k_jpg</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="planks_brown_10_diff_1k_jpg-sampler">
+          <sampler2D>
+            <source>planks_brown_10_diff_1k_jpg-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <diffuse>
+              <texture texture="planks_brown_10_diff_1k_jpg-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <reflectivity>
+              <float sid="specular">0.5</float>
+            </reflectivity>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="bordeDelantero_002-effect">
+      <profile_COMMON>
+        <newparam sid="piso_frente_png-surface">
+          <surface type="2D">
+            <init_from>piso_frente_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="piso_frente_png-sampler">
+          <sampler2D>
+            <source>piso_frente_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <diffuse>
+              <texture texture="piso_frente_png-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <reflectivity>
+              <float sid="specular">0.5</float>
+            </reflectivity>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="madera_002-effect">
+      <profile_COMMON>
+        <newparam sid="bamboo-wood-semigloss-albedo_png-surface">
+          <surface type="2D">
+            <init_from>bamboo-wood-semigloss-albedo_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="bamboo-wood-semigloss-albedo_png-sampler">
+          <sampler2D>
+            <source>bamboo-wood-semigloss-albedo_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <diffuse>
+              <texture texture="bamboo-wood-semigloss-albedo_png-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <reflectivity>
+              <float sid="specular">0.5</float>
+            </reflectivity>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Vidrio_002-effect">
+      <profile_COMMON>
+        <newparam sid="gris-surface">
+          <surface type="2D">
+            <init_from>gris</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="gris-sampler">
+          <sampler2D>
+            <source>gris-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <diffuse>
+              <texture texture="gris-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <reflectivity>
+              <float sid="specular">0.5</float>
+            </reflectivity>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Rojo_002-effect">
+      <profile_COMMON>
+        <newparam sid="Rojo-surface">
+          <surface type="2D">
+            <init_from>Rojo</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="Rojo-sampler">
+          <sampler2D>
+            <source>Rojo-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <diffuse>
+              <texture texture="Rojo-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <reflectivity>
+              <float sid="specular">0.5</float>
+            </reflectivity>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="madera-effect">
+      <profile_COMMON>
+        <newparam sid="bamboo-wood-semigloss-albedo_png-surface">
+          <surface type="2D">
+            <init_from>bamboo-wood-semigloss-albedo_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="bamboo-wood-semigloss-albedo_png-sampler">
+          <sampler2D>
+            <source>bamboo-wood-semigloss-albedo_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <diffuse>
+              <texture texture="bamboo-wood-semigloss-albedo_png-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <reflectivity>
+              <float sid="specular">0.5</float>
+            </reflectivity>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="cartel-effect">
+      <profile_COMMON>
+        <newparam sid="DRAGONGUERRERO_PNG-surface">
+          <surface type="2D">
+            <init_from>DRAGONGUERRERO_PNG</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="DRAGONGUERRERO_PNG-sampler">
+          <sampler2D>
+            <source>DRAGONGUERRERO_PNG-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <diffuse>
+              <texture texture="DRAGONGUERRERO_PNG-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <reflectivity>
+              <float sid="specular">0.5</float>
+            </reflectivity>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images>
+    <image id="DRAGONGUERRERO_PNG" name="DRAGONGUERRERO_PNG">
+      <init_from>DRAGONGUERRERO.PNG</init_from>
+    </image>
+    <image id="Rojo" name="Rojo">
+      <init_from>Rojo.png</init_from>
+    </image>
+    <image id="bamboo-wood-semigloss-albedo_png" name="bamboo-wood-semigloss-albedo_png">
+      <init_from>bamboo-wood-semigloss-albedo.png</init_from>
+    </image>
+    <image id="celeste" name="celeste">
+      <init_from>celeste.png</init_from>
+    </image>
+    <image id="gris" name="gris">
+      <init_from>gris.png</init_from>
+    </image>
+    <image id="piso_frente_png" name="piso_frente_png">
+      <init_from>piso%20frente.png</init_from>
+    </image>
+    <image id="planks_brown_10_diff_1k_jpg" name="planks_brown_10_diff_1k_jpg">
+      <init_from>planks_brown_10_diff_1k.jpg</init_from>
+    </image>
+    <image id="roof_09_diff_2k__rojasGIMP_jpg" name="roof_09_diff_2k__rojasGIMP_jpg">
+      <init_from>roof_09_diff_2k__rojasGIMP.jpg</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="TEJAS_002-material" name="TEJAS.002">
+      <instance_effect url="#TEJAS_002-effect"/>
+    </material>
+    <material id="celeste_002-material" name="celeste.002">
+      <instance_effect url="#celeste_002-effect"/>
+    </material>
+    <material id="Piso_Madera_002-material" name="Piso_Madera.002">
+      <instance_effect url="#Piso_Madera_002-effect"/>
+    </material>
+    <material id="bordeDelantero_002-material" name="bordeDelantero.002">
+      <instance_effect url="#bordeDelantero_002-effect"/>
+    </material>
+    <material id="madera_002-material" name="madera.002">
+      <instance_effect url="#madera_002-effect"/>
+    </material>
+    <material id="Vidrio_002-material" name="Vidrio.002">
+      <instance_effect url="#Vidrio_002-effect"/>
+    </material>
+    <material id="Rojo_002-material" name="Rojo.002">
+      <instance_effect url="#Rojo_002-effect"/>
+    </material>
+    <material id="madera-material" name="madera">
+      <instance_effect url="#madera-effect"/>
+    </material>
+    <material id="cartel-material" name="cartel">
+      <instance_effect url="#cartel-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Plane_000-mesh" name="Plane.000">
+      <mesh>
+        <source id="Plane_000-mesh-positions">
+          <float_array id="Plane_000-mesh-positions-array" count="360">-166.1682 6.81359 -5.625615 -166.1682 6.81359 -3.960671 -166.1682 6.81359 0.9042737 -166.1682 6.81359 -2.295726 -166.1682 4.953615 -5.625615 -166.1682 4.953615 1.704274 -166.1682 4.953615 -3.960671 -166.1682 4.953615 -2.295726 -166.1682 0.3036774 -3.960671 -166.1682 0.3036774 -2.295726 -166.1682 0.3036774 -0.2957263 -166.1682 0.3036774 -5.625615 -166.1682 9.603552 -3.960671 -166.1682 9.603552 -2.295726 -166.1682 9.603552 -0.2957263 -166.1682 9.603552 -5.625615 8.517931 5.971745 -5.735093 8.517931 5.971745 -2.425782 8.517931 6.205735 -5.735093 8.517931 6.205735 -2.425782 8.396525 5.971745 -5.735093 8.396525 5.971745 -2.425782 8.396525 6.205735 -5.735093 8.396525 6.205735 -2.425782 8.517931 5.971745 -2.223017 8.517931 6.205735 -2.223017 8.396525 6.205735 -2.223017 8.396525 5.971745 -2.223017 8.517931 3.902775 -5.735093 8.517931 3.902775 -2.425782 8.517931 4.136765 -5.735093 8.517931 4.136765 -2.425782 8.396525 3.902775 -5.735093 8.396525 3.902775 -2.425782 8.396525 4.136765 -5.735093 8.396525 4.136765 -2.425782 8.517931 3.902775 -2.229112 8.517931 4.136765 -2.229112 8.396525 3.902775 -2.229112 8.396525 4.136765 -2.229112 8.582306 4.137088 -5.735094 8.582306 4.137088 -2.425782 8.582306 5.992532 -5.735094 8.582306 5.992532 -2.425782 8.460899 4.137088 -5.735094 8.460899 4.137088 -2.425782 8.460899 5.992532 -5.735094 8.460899 5.992532 -2.425782 8.52213 4.335179 -3.957098 8.52213 4.335179 -4.060465 8.52213 4.231811 -3.957098 8.52213 4.231811 -4.060465 8.418763 4.335179 -3.957098 8.418763 4.335179 -4.060465 8.418763 4.231811 -3.957098 8.418763 4.231811 -4.060465 8.32338 4.241549 -4.060465 8.32338 4.241549 -3.957098 8.38377 4.325441 -3.957098 8.38377 4.325441 -4.060465 8.285968 4.574213 -4.038059 8.285968 4.574213 -3.979503 8.343842 4.58313 -3.979503 8.343842 4.58313 -4.038059 8.530724 0.3105025 -5.64103 8.530724 0.3105025 -5.360761 8.385998 0.3105025 -5.64103 8.385998 0.3105025 -5.360761 8.530724 6.218276 -5.64103 8.530724 6.218276 -5.360761 8.385998 6.218276 -5.64103 8.385998 6.218276 -5.360761 -166.2671 9.49123 -5.64103 -166.2671 9.49123 -5.360761 -166.2671 9.635955 -5.64103 -166.2671 9.635955 -5.360761 8.659444 9.49123 -5.64103 8.659444 9.49123 -5.360761 8.659444 9.635955 -5.64103 8.659444 9.635955 -5.360761 -166.0867 3.375318 -5.64103 -166.0867 3.375318 -5.360761 -166.2315 3.375318 -5.64103 -166.2315 3.375318 -5.360761 -166.0867 6.087572 -5.64103 -166.0867 6.087572 -5.360761 -166.2315 6.087572 -5.64103 -166.2315 6.087572 -5.360761 -10.38448 9.518268 -4.232745 -7.342334 9.518268 -4.232745 -10.38448 9.518268 -2.349988 -7.342334 9.518268 -2.349988 -10.38448 9.736999 -2.349988 -10.38448 9.736999 -4.232745 -7.342334 9.736999 -4.232745 -7.342334 9.736999 -2.349988 -45.38836 9.518266 -4.232745 -42.34622 9.518266 -4.232745 -45.38836 9.518266 -2.349988 -42.34622 9.518266 -2.349988 -45.38836 9.736997 -2.349988 -45.38836 9.736997 -4.232745 -42.34622 9.736997 -4.232745 -42.34622 9.736997 -2.349988 -80.39225 9.518264 -4.232745 -77.35012 9.518264 -4.232745 -80.39225 9.518264 -2.349988 -77.35012 9.518264 -2.349988 -80.39225 9.736996 -2.349988 -80.39225 9.736996 -4.232745 -77.35012 9.736996 -4.232745 -77.35012 9.736996 -2.349988 -115.3961 9.518263 -4.232745 -112.354 9.518263 -4.232745 -115.3961 9.518263 -2.349988 -112.354 9.518263 -2.349988 -115.3961 9.736994 -2.349988 -115.3961 9.736994 -4.232745 -112.354 9.736994 -4.232745 -112.354 9.736994 -2.349988</float_array>
+          <technique_common>
+            <accessor source="#Plane_000-mesh-positions-array" count="120" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane_000-mesh-normals">
+          <float_array id="Plane_000-mesh-normals-array" count="78">1 0 0 -1 0 0 0 -1 0 0 1 0 0 0 1 0 0 -1 -1 1.60198e-7 0 1 6.40792e-7 0 0 0.003321349 -0.9999946 0.08052325 -0.05796545 0.9950659 0.1015666 0.9948288 0 0.2681019 -0.9633906 0 -8.23934e-6 0 -1 0.1522915 -0.9883357 0 0.9937352 0.1117607 0 -0.9882079 -0.1531186 0 0.01303941 -0.08460897 -0.996329 0 0.003321349 -0.9999946 -2.05983e-6 0 1 0.01305007 -0.08460897 0.9963288 0.1015658 0.9948288 0 0.2681038 -0.9633901 0 0.1522941 -0.9883353 0 0.993736 0.1117538 0 -0.9882075 -0.1531207 0 0.08051311 -0.0579642 -0.9950668</float_array>
+          <technique_common>
+            <accessor source="#Plane_000-mesh-normals-array" count="26" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane_000-mesh-map-0">
+          <float_array id="Plane_000-mesh-map-0-array" count="1008">-0.2998578 1.626136 0.5000001 0.2500183 -0.2998583 0.2500181 -0.2998583 0.2500181 -1.499645 -0.46597 -1.499645 0.250018 -1.499645 1.110092 -0.2998583 0.2500181 -1.499645 0.250018 2.499645 -0.4659693 0.5000003 -1.181957 0.5000003 -0.4659695 -0.299858 -0.4659697 -1.499645 -1.181958 -1.499645 -0.46597 0.5000003 -1.181957 -0.299858 -0.4659697 0.5000003 -0.4659695 0.5000003 -0.4659695 -0.2998583 0.2500181 0.5000001 0.2500183 2.499644 0.2500185 0.5000003 -0.4659695 0.5000001 0.2500183 2.499644 1.110092 0.5000001 0.2500183 0.5000001 1.970166 0.625 0 0.375 0.25 0.375 0 -0.3434473 0.4639871 -0.4639334 0.5360128 -0.4639334 0.4639871 0.9999407 0.3382107 0.8734259 0.126574 0.9999407 0.126574 0.625 0.75 0.375 1 0.375 0.75 0.9999407 0.126574 0.8734259 5.92518e-5 0.9999407 5.92638e-5 0.9999407 0.3382107 0.8734259 0.3511778 0.8734259 0.3382108 -0.3360651 0.4639871 -0.2640394 0.5360128 -0.3360651 0.5360128 0.625 0 0.625 0.25 0.625 0.25 -0.3434473 0.4639871 -0.3360651 0.5360128 -0.3434473 0.5360128 0.625 0 0.375 0.25 0.375 0 0.625 0.25 0.375 0.5 0.375 0.25 0.1304945 0.3347492 6.06958e-5 0.1165534 0.130496 0.1165542 0.4155266 0.536013 0.536013 0.4639871 0.536013 0.5360129 0.1304945 0.3347492 5.92518e-5 0.3477154 5.9348e-5 0.3347484 0.625 0 0.625 0.25 0.625 0.25 0.4155266 0.536013 0.4083662 0.4639872 0.4155266 0.4639872 0.4083662 0.536013 0.3363404 0.4639872 0.4083662 0.4639872 0.625 0.5 0.625 1 0.625 0.75 0.625 1 0.625 0.25 0.625 0 0.1304945 0.3477163 0.8734259 0.3382108 0.8734259 0.3511778 -0.2640394 0.4639872 0.3363404 0.536013 -0.2640394 0.5360128 0.625 0 0.375 0.25 0.375 0 0.625 0.25 0.375 0.5 0.375 0.25 0.3709547 0.9981582 0.5890539 0.7800589 0.5890539 0.9981582 0.625 0.75 0.375 1 0.375 0.75 0.375 0.5 0.125 0.75 0.125 0.5 0.875 0.5 0.625 0.75 0.625 0.5 0.625 -1.019695 0.375 -0.7696955 0.375 -1.019695 -0.1348477 0.7577303 0.1455404 1.00773 -0.1348477 1.00773 1.614307 0.5 1.435008 0.75 1.435008 0.5 0.625 1.739307 0.375 2.019695 0.375 1.739307 0.2922427 0.7912647 0.1021724 0.9607352 0.1021724 0.7912647 1.894695 0.5 1.614307 0.75 1.614307 0.5 1.435008 0.75 0.625 0.5 1.435008 0.5 0.1455404 0.7577303 0.3248401 1.00773 0.1455404 1.00773 0.375 1.739307 0.625 1.560008 0.625 1.739307 0.2922427 0.7912647 0.4137867 0.9607352 0.2922427 0.9607352 0.625 0.5 0.375 0.75 0.375 0.5 0.3248401 1.00773 1.134848 0.7577303 1.134848 1.00773 0.375 1.560008 0.625 0.75 0.625 1.560008 0.4137867 0.9607352 0.9628764 0.7912647 0.9628764 0.9607352 -1.818397 0.06419634 -1.529165 -0.2250362 -1.529165 0.06419634 -1.818397 0.06419634 -1.529165 -0.2250362 -1.529165 0.06419634 -28.47103 -0.1574348 -28.77892 -0.1005192 -28.77892 -0.1574348 -29.07607 0.7937114 29.13924 1.157434 -29.09218 1.157435 -28.7843 -0.1574348 -29.09218 -0.1005192 -29.09218 -0.1574348 29.13923 0.7917849 -29.07609 0.4280617 29.15533 0.4280611 -29.08582 0.1628082 12.74745 -0.09859514 12.75381 0.1628075 -29.08582 0.4261363 12.74745 0.1647336 12.7538 0.4261363 -1.238956 0.06419634 -1.528189 -0.2250362 -1.238956 -0.2250362 -1.238956 0.06419634 -1.528189 -0.2250362 -1.238956 -0.2250362 0.9886983 0.007715463 0.01130193 0.9922847 0.01130193 0.007715463 1 0 0 1 0 0 1 0 0 0 0 0 1 1 1 0 1 0 0 0 0 1 0 1 0 1 1 1 1 1 0.9886983 0.007715463 0.01130193 0.9922847 0.01130193 0.007715463 1 0 0 1 0 0 1 0 0 0 0 0 1 1 1 0 1 0 0 0 0 1 0 1 0 1 1 1 1 1 0.9886983 0.007715463 0.01130193 0.9922847 0.01130193 0.007715463 1 0 0 1 0 0 1 0 0 0 0 0 1 1 1 0 1 0 0 0 0 1 0 1 0 1 1 1 1 1 0.9886983 0.007715463 0.01130193 0.9922847 0.01130193 0.007715463 1 0 0 1 0 0 1 0 0 0 0 0 1 1 1 0 1 0 0 0 0 1 0 1 0 1 1 1 1 1 -0.2998578 1.626136 0.5000001 1.970166 0.5000001 0.2500183 -0.2998583 0.2500181 -0.299858 -0.4659697 -1.499645 -0.46597 -1.499645 1.110092 -0.2998578 1.626136 -0.2998583 0.2500181 2.499645 -0.4659693 2.499645 -1.181957 0.5000003 -1.181957 -0.299858 -0.4659697 -0.2998576 -1.181957 -1.499645 -1.181958 0.5000003 -1.181957 -0.2998576 -1.181957 -0.299858 -0.4659697 0.5000003 -0.4659695 -0.299858 -0.4659697 -0.2998583 0.2500181 2.499644 0.2500185 2.499645 -0.4659693 0.5000003 -0.4659695 2.499644 1.110092 2.499644 0.2500185 0.5000001 0.2500183 0.625 0 0.625 0.25 0.375 0.25 -0.3434473 0.4639871 -0.3434473 0.5360128 -0.4639334 0.5360128 0.9999407 0.3382107 0.8734259 0.3382108 0.8734259 0.126574 0.625 0.75 0.625 1 0.375 1 0.9999407 0.126574 0.8734259 0.126574 0.8734259 5.92518e-5 0.9999407 0.3382107 0.9999407 0.3511779 0.8734259 0.3511778 -0.3360651 0.4639871 -0.2640394 0.4639872 -0.2640394 0.5360128 0.625 0 0.625 0 0.625 0.25 -0.3434473 0.4639871 -0.3360651 0.4639871 -0.3360651 0.5360128 0.625 0 0.625 0.25 0.375 0.25 0.625 0.25 0.625 0.5 0.375 0.5 0.1304945 0.3347492 5.9348e-5 0.3347484 6.06958e-5 0.1165534 0.4155266 0.536013 0.4155266 0.4639872 0.536013 0.4639871 0.1304945 0.3347492 0.1304945 0.3477163 5.92518e-5 0.3477154 0.625 0 0.625 0 0.625 0.25 0.4155266 0.536013 0.4083662 0.536013 0.4083662 0.4639872 0.4083662 0.536013 0.3363404 0.536013 0.3363404 0.4639872 0.625 0.5 0.625 0.25 0.625 1 0.625 1 0.625 0.25 0.625 0.25 0.1304945 0.3477163 0.1304945 0.3347492 0.8734259 0.3382108 -0.2640394 0.4639872 0.3363404 0.4639872 0.3363404 0.536013 0.625 0 0.625 0.25 0.375 0.25 0.625 0.25 0.625 0.5 0.375 0.5 0.3709547 0.9981582 0.3709547 0.7800589 0.5890539 0.7800589 0.625 0.75 0.625 1 0.375 1 0.375 0.5 0.375 0.75 0.125 0.75 0.875 0.5 0.875 0.75 0.625 0.75 0.625 -1.019695 0.625 -0.7696955 0.375 -0.7696955 -0.1348477 0.7577303 0.1455404 0.7577303 0.1455404 1.00773 1.614307 0.5 1.614307 0.75 1.435008 0.75 0.625 1.739307 0.625 2.019695 0.375 2.019695 0.2922427 0.7912647 0.2922427 0.9607352 0.1021724 0.9607352 1.894695 0.5 1.894695 0.75 1.614307 0.75 1.435008 0.75 0.625 0.75 0.625 0.5 0.1455404 0.7577303 0.3248401 0.7577303 0.3248401 1.00773 0.375 1.739307 0.375 1.560008 0.625 1.560008 0.2922427 0.7912647 0.4137867 0.7912647 0.4137867 0.9607352 0.625 0.5 0.625 0.75 0.375 0.75 0.3248401 1.00773 0.3248401 0.7577303 1.134848 0.7577303 0.375 1.560008 0.375 0.75 0.625 0.75 0.4137867 0.9607352 0.4137867 0.7912647 0.9628764 0.7912647 -1.818397 0.06419634 -1.818397 -0.2250362 -1.529165 -0.2250362 -1.818397 0.06419634 -1.818397 -0.2250362 -1.529165 -0.2250362 -28.47103 -0.1574348 -28.47103 -0.1005192 -28.77892 -0.1005192 -29.07607 0.7937114 29.15533 0.7937102 29.13924 1.157434 -28.7843 -0.1574348 -28.7843 -0.1005192 -29.09218 -0.1005192 29.13923 0.7917849 -29.09218 0.7917849 -29.07609 0.4280617 -29.08582 0.1628082 -29.09218 -0.09859454 12.74745 -0.09859514 -29.08582 0.4261363 -29.09218 0.1647336 12.74745 0.1647336 -1.238956 0.06419634 -1.528189 0.06419634 -1.528189 -0.2250362 -1.238956 0.06419634 -1.528189 0.06419634 -1.528189 -0.2250362 0.9886983 0.007715463 0.9886983 0.9922847 0.01130193 0.9922847 1 0 1 1 0 1 1 0 1 0 0 0 1 1 1 1 1 0 0 0 0 0 0 1 0 1 0 1 1 1 0.9886983 0.007715463 0.9886983 0.9922847 0.01130193 0.9922847 1 0 1 1 0 1 1 0 1 0 0 0 1 1 1 1 1 0 0 0 0 0 0 1 0 1 0 1 1 1 0.9886983 0.007715463 0.9886983 0.9922847 0.01130193 0.9922847 1 0 1 1 0 1 1 0 1 0 0 0 1 1 1 1 1 0 0 0 0 0 0 1 0 1 0 1 1 1 0.9886983 0.007715463 0.9886983 0.9922847 0.01130193 0.9922847 1 0 1 1 0 1 1 0 1 0 0 0 1 1 1 1 1 0 0 0 0 0 0 1 0 1 0 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Plane_000-mesh-map-0-array" count="504" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Plane_000-mesh-vertices">
+          <input semantic="POSITION" source="#Plane_000-mesh-positions"/>
+        </vertices>
+        <triangles material="celeste_002-material" count="18">
+          <input semantic="VERTEX" source="#Plane_000-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Plane_000-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Plane_000-mesh-map-0" offset="2" set="0"/>
+          <p>2 0 0 7 0 1 3 0 2 3 0 3 12 0 4 13 0 5 14 0 6 3 0 7 13 0 8 8 0 9 4 0 10 6 0 11 1 0 12 15 0 13 12 0 14 4 0 15 1 0 16 6 0 17 6 0 18 3 0 19 7 0 20 9 0 21 6 0 22 7 0 23 10 0 24 7 0 25 5 0 26 2 0 252 5 0 253 7 0 254 3 0 255 1 0 256 12 0 257 14 0 258 2 0 259 3 0 260 8 0 261 11 0 262 4 0 263 1 0 264 0 0 265 15 0 266 4 0 267 0 0 268 1 0 269 6 0 270 1 0 271 3 0 272 9 0 273 8 0 274 6 0 275 10 0 276 9 0 277 7 0 278</p>
+        </triangles>
+        <triangles material="madera-material" count="102">
+          <input semantic="VERTEX" source="#Plane_000-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Plane_000-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Plane_000-mesh-map-0" offset="2" set="0"/>
+          <p>17 1 27 18 1 28 16 1 29 19 2 30 22 2 31 18 2 32 23 0 33 20 0 34 22 0 35 21 3 36 16 3 37 20 3 38 22 4 39 16 4 40 18 4 41 23 0 42 27 0 43 21 0 44 25 5 45 27 5 46 26 5 47 17 1 48 25 1 49 19 1 50 19 2 51 26 2 52 23 2 53 29 1 54 30 1 55 28 1 56 31 2 57 34 2 58 30 2 59 35 0 60 32 0 61 34 0 62 33 3 63 28 3 64 32 3 65 35 0 66 38 0 67 33 0 68 29 1 69 37 1 70 31 1 71 33 3 72 36 3 73 29 3 74 38 5 75 37 5 76 36 5 77 35 4 78 17 4 79 21 4 80 17 6 81 37 6 82 24 6 83 39 7 84 21 7 85 27 7 86 24 8 87 39 8 88 27 8 89 41 1 90 42 1 91 40 1 92 43 2 93 46 2 94 42 2 95 47 0 96 44 0 97 46 0 98 45 3 99 40 3 100 44 3 101 46 4 102 40 4 103 42 4 104 43 5 105 45 5 106 47 5 107 49 1 108 50 1 109 48 1 110 51 3 111 54 3 112 50 3 113 55 4 114 59 4 115 56 4 116 53 2 117 48 2 118 52 2 119 54 5 120 48 5 121 50 5 122 51 4 123 53 4 124 55 4 125 59 9 126 60 9 127 56 9 128 55 10 129 57 10 130 54 10 131 52 11 132 59 11 133 53 11 134 54 12 135 58 12 136 52 12 137 60 13 138 62 13 139 61 13 140 57 14 141 60 14 142 61 14 143 58 15 144 63 15 145 59 15 146 58 16 147 61 16 148 62 16 149 65 2 150 66 2 151 64 2 152 69 2 153 70 2 154 68 2 155 73 1 156 74 1 157 72 1 158 75 3 159 78 3 160 74 3 161 79 0 162 76 0 163 78 0 164 77 2 165 72 2 166 76 2 167 78 5 168 72 5 169 74 5 170 75 4 171 77 4 172 79 4 173 83 3 174 80 3 175 82 3 176 87 3 177 84 3 178 86 3 179 17 1 279 19 1 280 18 1 281 19 2 282 23 2 283 22 2 284 23 0 285 21 0 286 20 0 287 21 3 288 17 3 289 16 3 290 22 4 291 20 4 292 16 4 293 23 0 294 26 0 295 27 0 296 25 5 297 24 5 298 27 5 299 17 1 300 24 1 301 25 1 302 19 2 303 25 2 304 26 2 305 29 1 306 31 1 307 30 1 308 31 2 309 35 2 310 34 2 311 35 0 312 33 0 313 32 0 314 33 3 315 29 3 316 28 3 317 35 0 318 39 0 319 38 0 320 29 1 321 36 1 322 37 1 323 33 3 324 38 3 325 36 3 326 38 5 327 39 5 328 37 5 329 35 4 330 31 4 331 17 4 332 17 1 333 31 1 334 37 1 335 39 0 336 35 0 337 21 0 338 24 17 339 37 17 340 39 17 341 41 1 342 43 1 343 42 1 344 43 2 345 47 2 346 46 2 347 47 0 348 45 0 349 44 0 350 45 3 351 41 3 352 40 3 353 46 4 354 44 4 355 40 4 356 43 5 357 41 5 358 45 5 359 49 1 360 51 1 361 50 1 362 51 3 363 55 3 364 54 3 365 55 18 366 53 18 367 59 18 368 53 2 369 49 2 370 48 2 371 54 5 372 52 5 373 48 5 374 51 4 375 49 4 376 53 4 377 59 19 378 63 19 379 60 19 380 55 20 381 56 20 382 57 20 383 52 21 384 58 21 385 59 21 386 54 5 387 57 5 388 58 5 389 60 22 390 63 22 391 62 22 392 57 23 393 56 23 394 60 23 395 58 24 396 62 24 397 63 24 398 58 25 399 57 25 400 61 25 401 65 2 402 67 2 403 66 2 404 69 2 405 71 2 406 70 2 407 73 1 408 75 1 409 74 1 410 75 3 411 79 3 412 78 3 413 79 0 414 77 0 415 76 0 416 77 2 417 73 2 418 72 2 419 78 5 420 76 5 421 72 5 422 75 4 423 73 4 424 77 4 425 83 3 426 81 3 427 80 3 428 87 3 429 85 3 430 84 3 431</p>
+        </triangles>
+        <triangles material="cartel-material" count="48">
+          <input semantic="VERTEX" source="#Plane_000-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Plane_000-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Plane_000-mesh-map-0" offset="2" set="0"/>
+          <p>89 2 180 90 2 181 88 2 182 94 2 183 92 2 184 93 2 185 89 4 186 93 4 187 88 4 188 91 1 189 94 1 190 89 1 191 88 0 192 92 0 193 90 0 194 90 5 195 95 5 196 91 5 197 97 2 198 98 2 199 96 2 200 102 2 201 100 2 202 101 2 203 97 4 204 101 4 205 96 4 206 99 1 207 102 1 208 97 1 209 96 0 210 100 0 211 98 0 212 98 5 213 103 5 214 99 5 215 105 2 216 106 2 217 104 2 218 110 2 219 108 2 220 109 2 221 105 4 222 109 4 223 104 4 224 107 1 225 110 1 226 105 1 227 104 0 228 108 0 229 106 0 230 106 5 231 111 5 232 107 5 233 113 2 234 114 2 235 112 2 236 118 2 237 116 2 238 117 2 239 113 4 240 117 4 241 112 4 242 115 1 243 118 1 244 113 1 245 112 0 246 116 0 247 114 0 248 114 5 249 119 5 250 115 5 251 89 2 432 91 2 433 90 2 434 94 2 435 95 2 436 92 2 437 89 4 438 94 4 439 93 4 440 91 1 441 95 1 442 94 1 443 88 0 444 93 0 445 92 0 446 90 5 447 92 5 448 95 5 449 97 2 450 99 2 451 98 2 452 102 2 453 103 2 454 100 2 455 97 4 456 102 4 457 101 4 458 99 1 459 103 1 460 102 1 461 96 0 462 101 0 463 100 0 464 98 5 465 100 5 466 103 5 467 105 2 468 107 2 469 106 2 470 110 2 471 111 2 472 108 2 473 105 4 474 110 4 475 109 4 476 107 1 477 111 1 478 110 1 479 104 0 480 109 0 481 108 0 482 106 5 483 108 5 484 111 5 485 113 2 486 115 2 487 114 2 488 118 2 489 119 2 490 116 2 491 113 4 492 118 4 493 117 4 494 115 1 495 119 1 496 118 1 497 112 0 498 117 0 499 116 0 500 114 5 501 116 5 502 119 5 503</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Escena_terminada_Aplicada" name="Escena_terminada_Aplicada">
+      <node id="puerta" name="puerta" type="NODE">
+        <matrix sid="transform">1 0 0 0.8977771 0 1 0 0.9642636 0 0 1 6.610432 0 0 0 1</matrix>
+        <instance_geometry url="#Plane_000-mesh" name="puerta">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="TEJAS_002-material" target="#TEJAS_002-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="celeste_002-material" target="#celeste_002-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Piso_Madera_002-material" target="#Piso_Madera_002-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="bordeDelantero_002-material" target="#bordeDelantero_002-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="madera_002-material" target="#madera_002-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Vidrio_002-material" target="#Vidrio_002-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Rojo_002-material" target="#Rojo_002-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="madera-material" target="#madera-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="cartel-material" target="#cartel-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Escena_terminada_Aplicada"/>
+  </scene>
+</COLLADA>

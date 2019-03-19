@@ -1,0 +1,36 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path.s3tc="res://.import/textura difusa cinturon.png-07a27ab88c2b648f11b37d555e0720b8.s3tc.stex"
+path.etc="res://.import/textura difusa cinturon.png-07a27ab88c2b648f11b37d555e0720b8.etc.stex"
+metadata={
+"imported_formats": [ "s3tc", "etc" ],
+"vram_texture": true
+}
+
+[deps]
+
+source_file="res://Escenas_Importadas/Personaje_Principal/images/textura difusa cinturon.png"
+dest_files=[ "res://.import/textura difusa cinturon.png-07a27ab88c2b648f11b37d555e0720b8.s3tc.stex", "res://.import/textura difusa cinturon.png-07a27ab88c2b648f11b37d555e0720b8.etc.stex" ]
+
+[params]
+
+compress/mode=2
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/bptc_ldr=0
+compress/normal_map=0
+flags/repeat=true
+flags/filter=true
+flags/mipmaps=true
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+process/invert_color=false
+stream=false
+size_limit=0
+detect_3d=false
+svg/scale=1.0
