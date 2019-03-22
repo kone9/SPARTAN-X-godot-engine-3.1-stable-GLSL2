@@ -161,7 +161,7 @@ resource_name = "Cube.024"
 [node name="Plataforma_nivel_1" type="Spatial"]
 
 [node name="Escalera" type="MeshInstance" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.83799, -159.773, 1.32802, -5.69039 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.83799, -155.909, 1.32802, -5.69039 )
 mesh = SubResource( 1 )
 material/0 = null
 

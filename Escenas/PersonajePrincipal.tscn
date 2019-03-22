@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=2]
+[gd_scene load_steps=13 format=2]
 
 [ext_resource path="res://Escenas_Importadas/Personaje_Principal/cinturon material.material" type="Material" id=1]
 [ext_resource path="res://Escenas_Importadas/Personaje_Principal/ropa personaje principal.material" type="Material" id=2]
@@ -53,12 +53,18 @@ surfaces/2 = {
 "vertex_count": 514
 }
 
+[sub_resource type="CapsuleShape" id=2]
+radius = 103.83
+height = 360.9
+
 [node name="PersonajePrincipal" type="KinematicBody"]
 
 [node name="rigging personaje principal" type="Spatial" parent="."]
+editor/display_folded = true
 transform = Transform( 0.00633305, 0, 0, 0, 0.00633305, 0, 0, 0, 0.00633305, -0.017261, -0.0345161, 0.788442 )
 
 [node name="Skeleton" type="Skeleton" parent="rigging personaje principal"]
+editor/display_folded = true
 bones_in_world_transform = true
 bones/0/name = "maestro principal"
 bones/0/parent = -1
@@ -476,6 +482,10 @@ mesh = SubResource( 1 )
 material/0 = null
 material/1 = null
 material/2 = null
+
+[node name="CollisionShape" type="CollisionShape" parent="."]
+transform = Transform( 0.00633305, 0, 0, 0, -2.76827e-010, -0.00633305, 0, 0.00633305, -2.76827e-010, -0.017261, -0.0345161, 0.788442 )
+shape = SubResource( 2 )
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 anims/ciclo_caminata = ExtResource( 4 )

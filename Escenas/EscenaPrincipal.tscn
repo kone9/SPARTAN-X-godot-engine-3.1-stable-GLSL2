@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=2]
+[gd_scene load_steps=13 format=2]
 
 [ext_resource path="res://Escenas/tejas.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Escenas/Agua.tscn" type="PackedScene" id=2]
@@ -7,7 +7,8 @@
 [ext_resource path="res://Escenas/PersonajePrincipal.tscn" type="PackedScene" id=5]
 [ext_resource path="res://Escenas/EnemigoPrincipal.tscn" type="PackedScene" id=6]
 [ext_resource path="res://Escenas/Enemigo_Cuchillo.tscn" type="PackedScene" id=7]
-[ext_resource path="res://audios/musica.ogg" type="AudioStream" id=8]
+[ext_resource path="res://Escenas/BOSS.tscn" type="PackedScene" id=8]
+[ext_resource path="res://audios/musica.ogg" type="AudioStream" id=9]
 
 [sub_resource type="ProceduralSky" id=1]
 
@@ -109,25 +110,27 @@ visible = false
 
 [node name="personajes" type="Spatial" parent="Nivel_1"]
 editor/display_folded = true
-transform = Transform( 1, -4.36557e-011, -4.65661e-009, -5.82077e-011, 1, 0, 4.65661e-009, 1.86265e-009, 1, 1.77707, 1.19209e-006, 6.67572e-006 )
+transform = Transform( 1, -4.36557e-011, -5.58794e-009, -5.82077e-011, 1, 0, 5.58794e-009, 1.86265e-009, 1, 1.77707, 1.43051e-006, 7.62939e-006 )
 
 [node name="PersonajePrincipal" parent="Nivel_1/personajes" instance=ExtResource( 5 )]
 transform = Transform( 0.0631158, -2.61934e-010, -0.596671, -1.11759e-008, 0.6, -3.25963e-009, 0.596672, -4.84288e-008, 0.0631158, -5.44376, 2.23885, -6.50692 )
 
 [node name="EnemigoPrincipal" parent="Nivel_1/personajes" instance=ExtResource( 6 )]
-transform = Transform( 0.0347356, 1.68257e-009, -0.598994, -1.1158e-008, 0.6, -3.4369e-009, 0.598994, -4.83951e-008, 0.0347356, -2.39071, 2.23885, -6.62585 )
+transform = Transform( 0.0347356, 1.68257e-009, -0.598994, -1.1158e-008, 0.6, -3.4369e-009, 0.598994, -4.83951e-008, 0.0347356, -3.71771, 2.23885, -6.62585 )
 
 [node name="Enemigo_Cuchillo" parent="Nivel_1/personajes" instance=ExtResource( 7 )]
-transform = Transform( 0.0631158, -2.61934e-010, -0.596671, -1.11759e-008, 0.6, -3.25963e-009, 0.596672, -4.84288e-008, 0.0631158, -0.223492, 2.23885, -6.50692 )
+transform = Transform( 0.0631158, -2.61934e-010, -0.596671, -1.11759e-008, 0.6, -3.25963e-009, 0.596672, -4.84288e-008, 0.0631158, -1.81624, 2.23885, -6.50692 )
+
+[node name="BOSS" parent="Nivel_1/personajes" instance=ExtResource( 8 )]
+transform = Transform( 0.0632159, -0.000370721, -0.59666, 0.00351857, 0.59999, 2.0562e-020, 0.596651, -0.00349898, 0.0632169, 0.234519, 2.19933, -6.50692 )
 
 [node name="audio" type="Node" parent="Nivel_1"]
 editor/display_folded = true
 
 [node name="AudioPrincipal" type="AudioStreamPlayer" parent="Nivel_1/audio"]
-stream = ExtResource( 8 )
+stream = ExtResource( 9 )
 autoplay = true
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="Nivel_1"]
-autoplay = "mover_Camara_prueba"
 anims/mover_Camara_prueba = SubResource( 3 )
 

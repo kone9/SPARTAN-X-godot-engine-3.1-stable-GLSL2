@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Sound Effect (5).wav-6387e3c73c80a483358a2fa668bee766.sample"
+
+[deps]
+
+source_file="res://audios/SFX originales/Sound Effect (5).wav"
+dest_files=[ "res://.import/Sound Effect (5).wav-6387e3c73c80a483358a2fa668bee766.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

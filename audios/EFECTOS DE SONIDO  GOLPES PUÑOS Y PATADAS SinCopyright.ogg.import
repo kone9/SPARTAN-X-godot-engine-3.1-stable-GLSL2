@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/EFECTOS DE SONIDO  GOLPES PUÑOS Y PATADAS SinCopyright.ogg-a458aa5b23cf78c867bde7055a00686f.oggstr"
+
+[deps]
+
+source_file="res://audios/EFECTOS DE SONIDO  GOLPES PUÑOS Y PATADAS SinCopyright.ogg"
+dest_files=[ "res://.import/EFECTOS DE SONIDO  GOLPES PUÑOS Y PATADAS SinCopyright.ogg-a458aa5b23cf78c867bde7055a00686f.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
