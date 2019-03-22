@@ -9,17 +9,17 @@
 [ext_resource path="res://Escenas/Enemigo_Cuchillo.tscn" type="PackedScene" id=7]
 [ext_resource path="res://audios/musica.ogg" type="AudioStream" id=8]
 
-[sub_resource type="ProceduralSky" id=2]
+[sub_resource type="ProceduralSky" id=1]
 
-[sub_resource type="Environment" id=3]
+[sub_resource type="Environment" id=2]
 background_mode = 2
-background_sky = SubResource( 2 )
+background_sky = SubResource( 1 )
 ambient_light_energy = 1.5
 fog_enabled = true
 fog_transmit_enabled = true
 fog_height_enabled = true
 
-[sub_resource type="Animation" id=4]
+[sub_resource type="Animation" id=3]
 resource_name = "mover_Camara_prueba"
 length = 50.0
 loop = true
@@ -44,7 +44,7 @@ tracks/0/keys = {
 editor/display_folded = true
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="Nivel_1/iluminación"]
-environment = SubResource( 3 )
+environment = SubResource( 2 )
 
 [node name="DirectionalLight" type="DirectionalLight" parent="Nivel_1/iluminación"]
 transform = Transform( 0.994572, -0.010054, -0.103563, 0.0255439, 0.988454, 0.149351, 0.100866, -0.151186, 0.983346, 0, 1.30464, 6.29577 )
@@ -129,5 +129,5 @@ autoplay = true
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="Nivel_1"]
 autoplay = "mover_Camara_prueba"
-anims/mover_Camara_prueba = SubResource( 4 )
+anims/mover_Camara_prueba = SubResource( 3 )
 
