@@ -2,8 +2,9 @@
 
 Recreando spartan X Kunf fu nes con godot engine 3.1 y glsl2
 
-#### Video del proyecto:
-https://www.youtube.com/watch?v=QiGlnJZ-C9Q
+#Fanepage Facebook: https://www.facebook.com/animador3dconblender
+
+#Video del proyecto: https://www.youtube.com/watch?v=QiGlnJZ-C9Q
 
 
 <a href='https://drive.google.com/file/d/1Bowj8gqSH2O9TUKcm49b-dUdDgZdtbEr/view?usp=drive_open&amp;usp=embed_facebook&source=ctrlq.org'><img src='https://lh4.googleusercontent.com/1LPF9sGQS8PY2nxZ9Y10xzxZR5gaiF8rIxMHPwAUL4Bb8twtu1ED79CEBsU=w2400' /></a>
