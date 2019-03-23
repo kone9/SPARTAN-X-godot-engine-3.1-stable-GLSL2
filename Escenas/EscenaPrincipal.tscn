@@ -72,10 +72,9 @@ transform = Transform( 1, 0, 0, 0, 0.787114, -0.616808, 0, 0.616808, 0.787114, 0
 editor/display_folded = true
 
 [node name="camara_principal" type="Spatial" parent="Nivel_1/camaras"]
-editor/display_folded = true
 
 [node name="CameraPrincipal" type="Camera" parent="Nivel_1/camaras/camara_principal"]
-transform = Transform( 0.999969, -0.000142552, -0.00785261, 0, 0.999835, -0.0181504, 0.0078539, 0.0181499, 0.999804, -3.665, 2.67, 9.271 )
+transform = Transform( 0.999969, -0.000142552, -0.00785261, 0, 0.999835, -0.0181504, 0.0078539, 0.0181499, 0.999804, -3.66499, 2.67, 9.271 )
 current = true
 fov = 30.0
 far = 1500.0
@@ -122,7 +121,7 @@ transform = Transform( 0.0347356, 1.68257e-009, -0.598994, -1.1158e-008, 0.6, -3
 transform = Transform( 0.0631158, -2.61934e-010, -0.596671, -1.11759e-008, 0.6, -3.25963e-009, 0.596672, -4.84288e-008, 0.0631158, -1.81624, 2.23885, -6.50692 )
 
 [node name="BOSS" parent="Nivel_1/personajes" instance=ExtResource( 8 )]
-transform = Transform( 0.0632159, -0.000370721, -0.59666, 0.00351857, 0.59999, 2.0562e-020, 0.596651, -0.00349898, 0.0632169, 0.234519, 2.19933, -6.50692 )
+transform = Transform( 0.0632159, -0.000370721, -0.59666, 0.00351857, 0.59999, 2.0562e-020, 0.596651, -0.00349898, 0.0632169, 0.234519, 2.23392, -6.50692 )
 
 [node name="audio" type="Node" parent="Nivel_1"]
 editor/display_folded = true
